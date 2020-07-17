@@ -12,6 +12,6 @@ INSERT or IGNORE INTO MyWebsite(id, myWebId, websiteName, [url]) VALUES (5, 2, '
 CREATE TABLE IF NOT EXISTS Bookmarks(id INTEGER PRIMARY KEY AUTOINCREMENT, pageTitle TEXT, pageUrl TEXT);
 INSERT or IGNORE INTO Bookmarks VALUES (1, 'Test Bookmark', "https://google.com");
 
-CREATE TABLE IF NOT EXISTS OfferAds(id INTEGER PRIMARY KEY AUTOINCREMENT,OfferName TEXT, OfferImgURL TEXT);
-INSERT or IGNORE INTO OfferAds VALUES (1, 'Affiliate 1', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer1.jpg');
-INSERT or IGNORE INTO OfferAds VALUES (2, 'Affiliate 2', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer2.jpg');
+CREATE TABLE IF NOT EXISTS OfferAds(id INTEGER PRIMARY KEY AUTOINCREMENT,OfferName TEXT, OfferImgURL TEXT, URLDest TEXT);
+INSERT or IGNORE INTO OfferAds VALUES (1, 'Affiliate 1', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer1.jpg', 'https://amazon.com');
+INSERT or IGNORE INTO OfferAds VALUES (2, 'Affiliate 2', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer2.jpg', 'https://target.com');
