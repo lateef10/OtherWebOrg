@@ -13,5 +13,6 @@ CREATE TABLE IF NOT EXISTS Bookmarks(id INTEGER PRIMARY KEY AUTOINCREMENT, pageT
 INSERT or IGNORE INTO Bookmarks VALUES (1, 'Test Bookmark', "https://google.com");
 
 CREATE TABLE IF NOT EXISTS OfferAds(id INTEGER PRIMARY KEY AUTOINCREMENT,OfferName TEXT, OfferImgURL TEXT, URLDest TEXT);
-INSERT or IGNORE INTO OfferAds VALUES (1, 'Affiliate 1', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer1.jpg', 'https://amazon.com');
-INSERT or IGNORE INTO OfferAds VALUES (2, 'Affiliate 2', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer2.jpg', 'https://target.com');
+INSERT or IGNORE INTO OfferAds VALUES (1, 'Affiliate 1', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer1.jpg', 'https://ebay.com');
+INSERT or IGNORE INTO OfferAds VALUES (2, 'Affiliate 2', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer2.jpg', 'https://amazon.com');
+INSERT or IGNORE INTO OfferAds VALUES (3, 'Affiliate 3', 'https://raw.githubusercontent.com/lateef10/OtherWebOrg/master/offer2.jpg', 'https://aliexpress.com');
