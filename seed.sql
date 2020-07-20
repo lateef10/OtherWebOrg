@@ -47,7 +47,7 @@ INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, Im
 
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (25, 2, 'News', 'CNN', 'https://cnn.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.cnn.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (26, 2, 'News', 'Fox News', 'https://foxnews.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.foxnews.com/');
-INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (27, 2, 'News', 'Reuters', 'https://reuters.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reuters.com/');
+INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (27, 2, 'News', 'Reuters', 'https://mobile.reuters.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reuters.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (28, 2, 'News', 'BBC', 'https://bbc.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.bbc.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (29, 2, 'News', 'Sky Sports', 'https://skysports.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.skysports.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (30, 2, 'News', 'Yahoo News', 'https://yahoo.com/news/', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.yahoo.com/news/');
