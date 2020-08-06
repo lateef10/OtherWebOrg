@@ -21,7 +21,8 @@ INSERT or IGNORE INTO OfferAds VALUES (3, 'Affiliate 3', 'https://raw.githubuser
 
 
 CREATE TABLE IF NOT EXISTS AllWebsite(id INTEGER PRIMARY KEY AUTOINCREMENT, CatId INTEGER, CatName TEXT, WebsiteName TEXT, WebsiteURL TEXT, ImageURL TEXT);
-INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (1, 1, 'Shopping', 'Amazon', 'https://amazon.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.amazon.com/');
+DELETE FROM AllWebsite;
+INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (1, 1, 'Shopping', 'Amazon', 'https://amzn.to/3gABkKD', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.amazon.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (2, 1, 'Shopping', 'Walmart', 'https://walmart.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.walmart.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (3, 1, 'Shopping', 'Ebay', 'https://ebay.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.ebay.com/');
 INSERT or IGNORE INTO AllWebsite(id, CatId, CatName, WebsiteName, WebsiteURL, ImageURL) VALUES (4, 1, 'Shopping', 'World Market', 'https://worldmarket.com', 'https://s2.googleusercontent.com/s2/favicons?domain_url=https://www.worldmarket.com/');
